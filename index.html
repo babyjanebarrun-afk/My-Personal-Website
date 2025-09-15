@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <img src="c:\Users\Bjane Barrun\Pictures\profilepicture.jpg.webp" class="circle-image" alt="Profile Picture">
+    <h1>BABY JANE BARRUN</h1>
+    <p>Web Developer | Designer</p>
+    <nav>
+      <a href="#profile">Profile</a>
+      <a href="#works">Works</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <h2>Profile</h2>
+    <div class="card">
+      <p>Hello! I am a passionate web developer with experience in creating responsive and user-friendly websites.</p>
+      <p>I have experience in HTML, CSS, JavaScript, and SQL, with a growing interest in web application development and graphic design.</p>
+</p>
+    </div>
+  </section>
+
+  <section id="works">
+    <h2>Works</h2>
+    <div class="card">
+      <ul>
+      <li>Graphic Arts (2022-2023)</li>
+      <li>Case Study (2023-2024)</li>
+      <li>Web Development (Present)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <ul>
+      <li><stong>Project One:</rstrong> Mandala Art (Adobe Photoshop)</li>
+      <li><strong>Project Two:</strong> BL Jey Food Hub (HTML & CSS)</li>
+      <li><strong>Project Three:</strong> Boarding House Reservation System (SQL)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <ul>
+      <li>Web Design</li>
+      <li>Graphic Editing</li>
+      <li>Database Management</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+      <p><strong>Email:</strong> babyjanebarrun@gmail.com</p>
+      <p><strong>Phone:</strong> 09517035960</p>
+      <p><strong>Facebook:</strong> Bjane Vibas Barrun</p>
+      <p><strong>Location:</strong> Cabitan, Mandaon, Masbate</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> Baby Jane Barrun</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
